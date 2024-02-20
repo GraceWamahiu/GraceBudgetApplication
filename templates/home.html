@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style>
+        img{
+            width: 300px;
+            height: 200px;
+        }
+         h1{
+                color: white;
+                background-color: blueviolet;
+                text-align: center;
+                line-height: 80px
+        }
+         h1:hover{
+             background-color: red;
+             
+         }
+         
+    </style>
+</head>
+<body>
+
+<h1>HOMEPAGE</h1>
+<img src="{% static 'images/nee.jpeg' %}" alt="">
+<img src="{% static 'images/imm.jpeg' %}" alt="">
+<img src="{% static 'images/nepn.jpeg' %}" alt="">
+<img src="{% static 'images/puple.jpeg' %}" alt="">
+<img src="{% static 'images/welll.jpeg' %}" alt="">
+<img src="{% static 'images/nee.jpeg' %}" alt="">
+
+<br><br>
+
+<h1>Payment</h1>
+<p class="paragraph2"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus at delectus deserunt, facere iusto laudantium modi non, nostrum omnis pariatur quaerat quibusdam quod repellat similique temporibus vel vero voluptatibus!</span><span>A autem consequuntur enim incidunt ipsum minus natus quos recusandae sunt vel. Corporis ducimus, earum fuga illum iusto rem tempora tenetur! Beatae ex neque saepe vitae. Culpa hic ipsa nam.</span><span>Alias architecto atque doloremque eaque, et, eum id in ipsam magni neque nihil sunt suscipit. Autem beatae, consectetur expedita fuga maxime nemo nesciunt optio quia sapiente velit! Magni natus, officiis.</span></p>
+<img id="image" src="{% static 'images/imm.jpeg' %}" alt="">
+</body>
+</html>
